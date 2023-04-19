@@ -1,0 +1,726 @@
+if game:GetService("CoreGui"):FindFirstChild("VeliHub") then
+	game.StarterGui:SetCore("ChatMakeSystemMessage", {Text = "VELIHUB Already Executed."})
+else
+local VeliHub = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Frame_3 = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local Frame_4 = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local Frame_5 = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local UIStroke = Instance.new("UIStroke")
+local Frame_6 = Instance.new("Frame")
+local Frame_7 = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local UIListLayout = Instance.new("UIListLayout")
+local CarSpeed = Instance.new("Frame")
+local Holder = Instance.new("Frame")
+local Label = Instance.new("TextLabel")
+local Slider = Instance.new("Frame")
+local Bar = Instance.new("Frame")
+local Fill = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local UICorner_6 = Instance.new("UICorner")
+local Input = Instance.new("TextBox")
+local UICorner_7 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
+local CarBoost = Instance.new("Frame")
+local Holder_2 = Instance.new("Frame")
+local Label_2 = Instance.new("TextLabel")
+local Slider_2 = Instance.new("Frame")
+local Bar_2 = Instance.new("Frame")
+local Fill_2 = Instance.new("Frame")
+local UICorner_9 = Instance.new("UICorner")
+local UICorner_10 = Instance.new("UICorner")
+local Input_2 = Instance.new("TextBox")
+local UICorner_11 = Instance.new("UICorner")
+local UICorner_12 = Instance.new("UICorner")
+local LoopCarSettings = Instance.new("Frame")
+local UICorner_13 = Instance.new("UICorner")
+local Holder_3 = Instance.new("Frame")
+local Label_3 = Instance.new("TextLabel")
+local UICorner_14 = Instance.new("UICorner")
+local Frame_8 = Instance.new("Frame")
+local UICorner_15 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_16 = Instance.new("UICorner")
+local UICorner_17 = Instance.new("UICorner")
+local UIListLayout_2 = Instance.new("UIListLayout")
+local UIStroke_2 = Instance.new("UIStroke")
+local TextButton = Instance.new("TextButton")
+local Rainbow = Instance.new("Frame")
+local Holder_4 = Instance.new("Frame")
+local Label_4 = Instance.new("TextLabel")
+local UICorner_18 = Instance.new("UICorner")
+local Frame_9 = Instance.new("Frame")
+local UICorner_19 = Instance.new("UICorner")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local UICorner_20 = Instance.new("UICorner")
+local UICorner_21 = Instance.new("UICorner")
+local UIListLayout_3 = Instance.new("UIListLayout")
+local UIStroke_3 = Instance.new("UIStroke")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local UIListLayout_4 = Instance.new("UIListLayout")
+local UIColor = Instance.new("Frame")
+
+--Properties:
+
+VeliHub.Name = "VeliHub"
+VeliHub.Parent = game:GetService("CoreGui")
+VeliHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = VeliHub
+Frame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame.BackgroundTransparency = 1.000
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.0998719558, 0, 0.118312754, 0)
+Frame.Size = UDim2.new(0, 318, 0, 35)
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_2.Position = UDim2.new(-0.000756971538, 0, -0.0245443955, 0)
+Frame_2.Size = UDim2.new(0, 318, 0, 237)
+
+UICorner.CornerRadius = UDim.new(0, 5)
+UICorner.Parent = Frame_2
+
+Frame_3.Parent = Frame_2
+Frame_3.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Frame_3.BorderSizePixel = 0
+Frame_3.Size = UDim2.new(0, 318, 0, 35)
+
+UICorner_2.CornerRadius = UDim.new(0, 5)
+UICorner_2.Parent = Frame_3
+
+Frame_4.Parent = Frame_3
+Frame_4.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(0, 0, 0.600000024, 0)
+Frame_4.Size = UDim2.new(0, 318, 0, 14)
+
+TextLabel.Parent = Frame_3
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0, 63, 0, 35)
+TextLabel.Font = Enum.Font.GothamBlack
+TextLabel.Text = "VELI"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 20.000
+
+Frame_5.Parent = Frame_3
+Frame_5.BackgroundColor3 = Color3.fromRGB(255, 118, 20)
+Frame_5.Position = UDim2.new(0.179245278, 0, 0.0857143104, 0)
+Frame_5.Size = UDim2.new(0, 60, 0, 29)
+
+UICorner_3.CornerRadius = UDim.new(0, 5)
+UICorner_3.Parent = Frame_5
+
+TextLabel_2.Parent = Frame_5
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Size = UDim2.new(0, 60, 0, 29)
+TextLabel_2.Font = Enum.Font.GothamBlack
+TextLabel_2.Text = "HUB"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 20.000
+
+TextLabel_3.Parent = Frame_3
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.874213815, 0, 0, 0)
+TextLabel_3.Size = UDim2.new(0, 35, 0, 35)
+TextLabel_3.Font = Enum.Font.GothamBlack
+TextLabel_3.Text = "V1.2"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 12.000
+
+UIStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke.Color = Color3.fromRGB(35, 35, 35)
+UIStroke.Thickness = 1.800
+UIStroke.Transparency = 0.500
+UIStroke.Parent = Frame_2
+
+Frame_6.Parent = Frame_2
+Frame_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_6.BackgroundTransparency = 1.000
+Frame_6.BorderSizePixel = 0
+Frame_6.Position = UDim2.new(0, 0, 0.147679329, 0)
+Frame_6.Size = UDim2.new(0, 318, 0, 202)
+
+Frame_7.Parent = Frame_6
+Frame_7.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Frame_7.BorderSizePixel = 0
+Frame_7.Position = UDim2.new(0, 0, 0.147679329, 0)
+Frame_7.Size = UDim2.new(0, 308, 0, 192)
+
+UICorner_4.CornerRadius = UDim.new(0, 5)
+UICorner_4.Parent = Frame_7
+
+UIListLayout.Parent = Frame_7
+UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 1)
+
+CarSpeed.Name = "CarSpeed"
+CarSpeed.Parent = Frame_7
+CarSpeed.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+CarSpeed.Size = UDim2.new(1, 2, 0, 41)
+
+Holder.Name = "Holder"
+Holder.Parent = CarSpeed
+Holder.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Holder.Position = UDim2.new(0, 1, 0, 1)
+Holder.Size = UDim2.new(1, -2, 1, -2)
+
+Label.Name = "Label"
+Label.Parent = Holder
+Label.BackgroundTransparency = 1.000
+Label.Position = UDim2.new(0, 5, 0, 5)
+Label.Size = UDim2.new(1, -75, 0, 14)
+Label.Font = Enum.Font.SourceSans
+Label.Text = "Car Speed"
+Label.TextColor3 = Color3.fromRGB(255, 255, 255)
+Label.TextSize = 14.000
+Label.TextWrapped = true
+Label.TextXAlignment = Enum.TextXAlignment.Left
+
+Slider.Name = "Slider"
+Slider.Parent = Holder
+Slider.BackgroundTransparency = 1.000
+Slider.Position = UDim2.new(0, 5, 1, -15)
+Slider.Size = UDim2.new(1, -10, 0, 10)
+
+Bar.Name = "Bar"
+Bar.Parent = Slider
+Bar.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Bar.ClipsDescendants = true
+Bar.Size = UDim2.new(1, 0, 1, 0)
+
+Fill.Name = "Fill"
+Fill.Parent = Bar
+Fill.BackgroundColor3 = Color3.fromRGB(255, 118, 20)
+Fill.Size = UDim2.new(0.0649999976, 0, 1, 0)
+
+UICorner_5.CornerRadius = UDim.new(0, 5)
+UICorner_5.Parent = Fill
+
+UICorner_6.CornerRadius = UDim.new(0, 5)
+UICorner_6.Parent = Bar
+
+Input.Name = "Input"
+Input.Parent = Holder
+Input.AnchorPoint = Vector2.new(1, 0)
+Input.BackgroundTransparency = 1.000
+Input.Position = UDim2.new(1, -5, 0, 5)
+Input.Size = UDim2.new(0, 60, 0, 14)
+Input.ClearTextOnFocus = false
+Input.Font = Enum.Font.SourceSans
+Input.PlaceholderText = "..."
+Input.ShowNativeInput = false
+Input.Text = "24"
+Input.TextColor3 = Color3.fromRGB(255, 255, 255)
+Input.TextSize = 14.000
+Input.TextWrapped = true
+Input.TextXAlignment = Enum.TextXAlignment.Right
+
+UICorner_7.CornerRadius = UDim.new(0, 5)
+UICorner_7.Parent = Holder
+
+UICorner_8.CornerRadius = UDim.new(0, 5)
+UICorner_8.Parent = CarSpeed
+
+CarBoost.Name = "CarBoost"
+CarBoost.Parent = Frame_7
+CarBoost.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+CarBoost.Size = UDim2.new(1, 2, 0, 41)
+
+Holder_2.Name = "Holder"
+Holder_2.Parent = CarBoost
+Holder_2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Holder_2.Position = UDim2.new(0, 1, 0, 1)
+Holder_2.Size = UDim2.new(1, -2, 1, -2)
+
+Label_2.Name = "Label"
+Label_2.Parent = Holder_2
+Label_2.BackgroundTransparency = 1.000
+Label_2.Position = UDim2.new(0, 5, 0, 5)
+Label_2.Size = UDim2.new(1, -75, 0, 14)
+Label_2.Font = Enum.Font.SourceSans
+Label_2.Text = "Car Boost"
+Label_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Label_2.TextSize = 14.000
+Label_2.TextWrapped = true
+Label_2.TextXAlignment = Enum.TextXAlignment.Left
+
+Slider_2.Name = "Slider"
+Slider_2.Parent = Holder_2
+Slider_2.BackgroundTransparency = 1.000
+Slider_2.Position = UDim2.new(0, 5, 1, -15)
+Slider_2.Size = UDim2.new(1, -10, 0, 10)
+
+Bar_2.Name = "Bar"
+Bar_2.Parent = Slider_2
+Bar_2.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Bar_2.ClipsDescendants = true
+Bar_2.Size = UDim2.new(1, 0, 1, 0)
+
+Fill_2.Name = "Fill"
+Fill_2.Parent = Bar_2
+Fill_2.BackgroundColor3 = Color3.fromRGB(255, 118, 20)
+Fill_2.Size = UDim2.new(0.0649999976, 0, 1, 0)
+
+UICorner_9.CornerRadius = UDim.new(0, 5)
+UICorner_9.Parent = Fill_2
+
+UICorner_10.CornerRadius = UDim.new(0, 5)
+UICorner_10.Parent = Bar_2
+
+Input_2.Name = "Input"
+Input_2.Parent = Holder_2
+Input_2.AnchorPoint = Vector2.new(1, 0)
+Input_2.BackgroundTransparency = 1.000
+Input_2.Position = UDim2.new(1, -5, 0, 5)
+Input_2.Size = UDim2.new(0, 60, 0, 14)
+Input_2.ClearTextOnFocus = false
+Input_2.Font = Enum.Font.SourceSans
+Input_2.PlaceholderText = "..."
+Input_2.ShowNativeInput = false
+Input_2.Text = "24"
+Input_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Input_2.TextSize = 14.000
+Input_2.TextWrapped = true
+Input_2.TextXAlignment = Enum.TextXAlignment.Right
+
+UICorner_11.CornerRadius = UDim.new(0, 5)
+UICorner_11.Parent = Holder_2
+
+UICorner_12.CornerRadius = UDim.new(0, 5)
+UICorner_12.Parent = CarBoost
+
+LoopCarSettings.Name = "LoopCarSettings"
+LoopCarSettings.Parent = Frame_7
+LoopCarSettings.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+LoopCarSettings.Size = UDim2.new(1, 2, 0, 32)
+
+UICorner_13.CornerRadius = UDim.new(0, 5)
+UICorner_13.Parent = LoopCarSettings
+
+Holder_3.Name = "Holder"
+Holder_3.Parent = LoopCarSettings
+Holder_3.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Holder_3.Position = UDim2.new(0, 1, 0, 1)
+Holder_3.Size = UDim2.new(1, -2, 1, -2)
+
+Label_3.Name = "Label"
+Label_3.Parent = Holder_3
+Label_3.BackgroundTransparency = 1.000
+Label_3.Position = UDim2.new(0, 5, 0.5, -7)
+Label_3.Size = UDim2.new(1, -50, 0, 14)
+Label_3.Font = Enum.Font.SourceSans
+Label_3.Text = "Loop Car Settings"
+Label_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Label_3.TextSize = 14.000
+Label_3.TextWrapped = true
+Label_3.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_14.CornerRadius = UDim.new(0, 5)
+UICorner_14.Parent = Holder_3
+
+Frame_8.Parent = Holder_3
+Frame_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_8.BackgroundTransparency = 1.000
+Frame_8.Position = UDim2.new(0.917043746, 0, 0.190476209, 0)
+Frame_8.Size = UDim2.new(0, 17, 0, 17)
+
+UICorner_15.CornerRadius = UDim.new(0, 3)
+UICorner_15.Parent = Frame_8
+
+ImageLabel.Parent = Frame_8
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Image = "http://www.roblox.com/asset/?id=12266537086"
+ImageLabel.ImageColor3 = Color3.fromRGB(50, 50, 50)
+ImageLabel.ImageTransparency = 1.000
+ImageLabel.ScaleType = Enum.ScaleType.Fit
+
+UICorner_16.CornerRadius = UDim.new(0, 3)
+UICorner_16.Parent = ImageLabel
+
+UICorner_17.CornerRadius = UDim.new(0, 2)
+UICorner_17.Parent = ImageLabel
+
+UIListLayout_2.Parent = Frame_8
+UIListLayout_2.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_2.VerticalAlignment = Enum.VerticalAlignment.Center
+
+UIStroke_2.Color = Color3.fromRGB(50, 50, 50)
+UIStroke_2.Thickness = 1.500
+UIStroke_2.Parent = Frame_8
+
+TextButton.Parent = Holder_3
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.Size = UDim2.new(1, -2, 1, -2)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = ""
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+Rainbow.Name = "Rainbow"
+Rainbow.Parent = Frame_7
+Rainbow.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Rainbow.Size = UDim2.new(1, 2, 0, 32)
+
+Holder_4.Name = "Holder"
+Holder_4.Parent = Rainbow
+Holder_4.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Holder_4.Position = UDim2.new(0, 1, 0, 1)
+Holder_4.Size = UDim2.new(1, -2, 1, -2)
+
+Label_4.Name = "Label"
+Label_4.Parent = Holder_4
+Label_4.BackgroundTransparency = 1.000
+Label_4.Position = UDim2.new(0, 5, 0.5, -7)
+Label_4.Size = UDim2.new(1, -50, 0, 14)
+Label_4.Font = Enum.Font.SourceSans
+Label_4.Text = "Rainbow UI"
+Label_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Label_4.TextSize = 14.000
+Label_4.TextWrapped = true
+Label_4.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_18.CornerRadius = UDim.new(0, 5)
+UICorner_18.Parent = Holder_4
+
+Frame_9.Parent = Holder_4
+Frame_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_9.BackgroundTransparency = 1.000
+Frame_9.Position = UDim2.new(0.917043746, 0, 0.190476209, 0)
+Frame_9.Size = UDim2.new(0, 17, 0, 17)
+
+UICorner_19.CornerRadius = UDim.new(0, 3)
+UICorner_19.Parent = Frame_9
+
+ImageLabel_2.Parent = Frame_9
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.Image = "http://www.roblox.com/asset/?id=12266537086"
+ImageLabel_2.ImageColor3 = Color3.fromRGB(50, 50, 50)
+ImageLabel_2.ImageTransparency = 1.000
+ImageLabel_2.ScaleType = Enum.ScaleType.Fit
+
+UICorner_20.CornerRadius = UDim.new(0, 3)
+UICorner_20.Parent = ImageLabel_2
+
+UICorner_21.CornerRadius = UDim.new(0, 2)
+UICorner_21.Parent = ImageLabel_2
+
+UIListLayout_3.Parent = Frame_9
+UIListLayout_3.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_3.VerticalAlignment = Enum.VerticalAlignment.Center
+
+UIStroke_3.Color = Color3.fromRGB(50, 50, 50)
+UIStroke_3.Thickness = 1.500
+UIStroke_3.Parent = Frame_9
+
+TextButton_2.Parent = Holder_4
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 1.000
+TextButton_2.Size = UDim2.new(1, -2, 1, -2)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = ""
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+UICorner_22.CornerRadius = UDim.new(0, 5)
+UICorner_22.Parent = Rainbow
+
+UIListLayout_4.Parent = Frame_6
+UIListLayout_4.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_4.VerticalAlignment = Enum.VerticalAlignment.Center
+
+UIColor.Name = "UIColor"
+UIColor.Parent = Frame_2
+UIColor.BackgroundColor3 = Color3.fromRGB(255, 118, 20)
+UIColor.BackgroundTransparency = 1.000
+UIColor.BorderSizePixel = 0
+UIColor.Visible = false
+UIColor.ZIndex = -9999
+
+-- Scripts:
+
+local function UXOJBZ_fake_script() -- Frame_5.LocalScript 
+	local script = Instance.new('LocalScript', Frame_5)
+
+	game:GetService("RunService").Stepped:Connect(function()
+		game:GetService("TweenService"):Create(script.Parent,TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{BackgroundColor3 = script.Parent.Parent.Parent.UIColor.BackgroundColor3}):Play()
+	end)
+end
+coroutine.wrap(UXOJBZ_fake_script)()
+local function WNAKDWD_fake_script() -- Frame_7.LocalScript 
+	local script = Instance.new('LocalScript', Frame_7)
+
+	local TargetColor = script.Parent.Parent.Parent.UIColor
+	game:GetService("RunService").Stepped:Connect(function()
+		game:GetService("TweenService"):Create(script.Parent.CarBoost.Holder.Slider.Bar.Fill,TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{BackgroundColor3 = TargetColor.BackgroundColor3}):Play()
+		game:GetService("TweenService"):Create(script.Parent.CarSpeed.Holder.Slider.Bar.Fill,TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{BackgroundColor3 = TargetColor.BackgroundColor3}):Play()
+	end)
+end
+coroutine.wrap(WNAKDWD_fake_script)()
+local function TOJP_fake_script() -- Slider.mainScript 
+	local script = Instance.new('LocalScript', Slider)
+
+	local mouse = game:GetService("Players").LocalPlayer:GetMouse()
+	
+	local function initiateDrag(frame, callbackFunction)
+		local dragging = false
+	
+		frame.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				dragging = true
+			end
+		end)
+	
+		frame.InputEnded:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				dragging = false
+			end
+		end)
+	
+		frame.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				local pos = UDim2.new(math.clamp((mouse.X - frame.AbsolutePosition.X) / frame.AbsoluteSize.X, 0, 1), 0, 1, 0)
+				frame.Bar.Fill:TweenSize(pos, Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.18, true, callbackFunction(pos.X.Scale))
+			end
+		end)
+	
+		game:GetService("UserInputService").InputChanged:Connect(function(input)
+			if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then
+				local pos = UDim2.new(math.clamp((mouse.X - frame.AbsolutePosition.X) / frame.AbsoluteSize.X, 0, 1), 0, 1, 0)
+				frame.Bar.Fill:TweenSize(pos, Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.18, true, callbackFunction(pos.X.Scale))
+			end
+		end)
+	end
+	
+	initiateDrag(script.Parent, function(value)
+		script.Parent.Parent.Input.Text = tostring(math.floor(value*5000))
+		if game:GetService("Workspace"):FindFirstChild("Vehicles") then
+			if game:GetService("Workspace"):FindFirstChild("Vehicles"):FindFirstChild(""..game:GetService("Players").LocalPlayer.Name.."") then
+				if game:GetService("Workspace"):FindFirstChild("Vehicles"):FindFirstChild(""..game:GetService("Players").LocalPlayer.Name..""):FindFirstChild("Stats") then
+					if game:GetService("Workspace"):FindFirstChild("Vehicles"):FindFirstChild(""..game:GetService("Players").LocalPlayer.Name..""):FindFirstChild("Stats"):FindFirstChild("MaxSpeed") then
+						game:GetService("Workspace"):FindFirstChild("Vehicles"):FindFirstChild(""..game:GetService("Players").LocalPlayer.Name..""):FindFirstChild("Stats"):FindFirstChild("MaxSpeed").Value = value*5000
+					end
+				end
+			end
+		end
+	end)
+	script.Parent.Parent.Input.TextEditable = false
+end
+coroutine.wrap(TOJP_fake_script)()
+local function GZOT_fake_script() -- Slider_2.mainScript 
+	local script = Instance.new('LocalScript', Slider_2)
+
+	local mouse = game:GetService("Players").LocalPlayer:GetMouse()
+	
+	local function initiateDrag(frame, callbackFunction)
+		local dragging = false
+	
+		frame.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				dragging = true
+			end
+		end)
+	
+		frame.InputEnded:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				dragging = false
+			end
+		end)
+	
+		frame.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				local pos = UDim2.new(math.clamp((mouse.X - frame.AbsolutePosition.X) / frame.AbsoluteSize.X, 0, 1), 0, 1, 0)
+				frame.Bar.Fill:TweenSize(pos, Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.18, true, callbackFunction(pos.X.Scale))
+			end
+		end)
+	
+		game:GetService("UserInputService").InputChanged:Connect(function(input)
+			if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then
+				local pos = UDim2.new(math.clamp((mouse.X - frame.AbsolutePosition.X) / frame.AbsoluteSize.X, 0, 1), 0, 1, 0)
+				frame.Bar.Fill:TweenSize(pos, Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.18, true, callbackFunction(pos.X.Scale))
+			end
+		end)
+	end
+	
+	initiateDrag(script.Parent, function(value)
+		script.Parent.Parent.Input.Text = tostring(math.floor(value*50000))
+		if game:GetService("Workspace"):FindFirstChild("Vehicles") then
+			if game:GetService("Workspace"):FindFirstChild("Vehicles"):FindFirstChild(""..game:GetService("Players").LocalPlayer.Name.."") then
+				if game:GetService("Workspace"):FindFirstChild("Vehicles"):FindFirstChild(""..game:GetService("Players").LocalPlayer.Name..""):FindFirstChild("Constraints") then
+					for i,v in pairs(game:GetService("Workspace"):FindFirstChild("Vehicles"):FindFirstChild(""..game:GetService("Players").LocalPlayer.Name..""):FindFirstChild("Constraints"):GetChildren()) do
+							if v.ClassName == "HingeConstraint" then
+							v.MotorMaxTorque = value*50000
+						end
+					end
+				end
+			end
+		end
+	end)
+	script.Parent.Parent.Input.TextEditable = false
+end
+coroutine.wrap(GZOT_fake_script)()
+local function VRBQ_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local Toggle = true
+	local UseToggle = false
+	local StatusView = script.Parent.Parent.Frame
+	local StrokeView = StatusView.UIStroke
+	-------
+	local TargetColor = script.Parent.Parent.Parent.Parent.Parent.Parent.UIColor
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if Toggle == true then
+			Toggle = false
+			UseToggle = true
+			game:GetService("TweenService"):Create(StatusView.ImageLabel,TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{ImageColor3 = TargetColor.BackgroundColor3}):Play()
+			game:GetService("TweenService"):Create(StatusView.ImageLabel,TweenInfo.new(0.1,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{Size = UDim2.new(0, 23,0, 23)}):Play()
+			game:GetService("TweenService"):Create(StatusView.ImageLabel,TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{ImageTransparency = 0}):Play()
+			game:GetService("TweenService"):Create(StrokeView,TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{Color = TargetColor.BackgroundColor3}):Play()
+			game:GetService("TweenService"):Create(StatusView.UIStroke,TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{Transparency = 1}):Play()
+		else
+			Toggle = true
+			UseToggle = false
+			game:GetService("TweenService"):Create(StatusView.ImageLabel,TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{ImageColor3 = Color3.fromRGB(50,50,50)}):Play()
+			game:GetService("TweenService"):Create(StatusView.ImageLabel,TweenInfo.new(0.1,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{Size = UDim2.new(0, 0,0, 0)}):Play()
+			game:GetService("TweenService"):Create(StatusView.ImageLabel,TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{ImageTransparency = 1}):Play()
+			game:GetService("TweenService"):Create(StrokeView,TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{Color = Color3.fromRGB(50,50,50)}):Play()
+			game:GetService("TweenService"):Create(StatusView.UIStroke,TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{Transparency = 0}):Play()
+		end
+	end)
+	game:GetService("RunService").Stepped:Connect(function(v)
+		if UseToggle == true then
+			if game:GetService("Workspace"):FindFirstChild("Vehicles") then
+				if game:GetService("Workspace"):FindFirstChild("Vehicles"):FindFirstChild(""..game:GetService("Players").LocalPlayer.Name.."") then
+					if game:GetService("Workspace"):FindFirstChild("Vehicles"):FindFirstChild(""..game:GetService("Players").LocalPlayer.Name..""):FindFirstChild("Constraints") then
+						for i,v in pairs(game:GetService("Workspace"):FindFirstChild("Vehicles"):FindFirstChild(""..game:GetService("Players").LocalPlayer.Name..""):FindFirstChild("Constraints"):GetChildren()) do
+							if v.ClassName == "HingeConstraint" then
+								v.MotorMaxTorque = script.Parent.Parent.Parent.Parent.CarBoost.Holder.Input.Text
+							end
+						end
+					end
+				end
+			end
+			if game:GetService("Workspace"):FindFirstChild("Vehicles") then
+				if game:GetService("Workspace"):FindFirstChild("Vehicles"):FindFirstChild(""..game:GetService("Players").LocalPlayer.Name.."") then
+					if game:GetService("Workspace"):FindFirstChild("Vehicles"):FindFirstChild(""..game:GetService("Players").LocalPlayer.Name..""):FindFirstChild("Stats") then
+						if game:GetService("Workspace"):FindFirstChild("Vehicles"):FindFirstChild(""..game:GetService("Players").LocalPlayer.Name..""):FindFirstChild("Stats"):FindFirstChild("MaxSpeed") then
+							game:GetService("Workspace"):FindFirstChild("Vehicles"):FindFirstChild(""..game:GetService("Players").LocalPlayer.Name..""):FindFirstChild("Stats"):FindFirstChild("MaxSpeed").Value = script.Parent.Parent.Parent.Parent.CarSpeed.Holder.Input.Text
+						end
+					end
+				end
+			end
+			game:GetService("TweenService"):Create(StatusView.ImageLabel,TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{ImageColor3 = TargetColor.BackgroundColor3}):Play()
+			game:GetService("TweenService"):Create(StrokeView,TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{Color = TargetColor.BackgroundColor3}):Play()
+			--
+		else
+			--
+		end
+	end)
+	
+end
+coroutine.wrap(VRBQ_fake_script)()
+local function AISHPR_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	local Toggle = true
+	local UseToggle = false
+	local StatusView = script.Parent.Parent.Frame
+	local StrokeView = StatusView.UIStroke
+	local Modify = true
+	local TargetColor = script.Parent.Parent.Parent.Parent.Parent.Parent.UIColor
+	-------
+	local HL = Instance.new("Highlight")
+	HL.Name = "PlayersESP"
+	script.Parent.MouseButton1Click:Connect(function()
+		if Toggle == true then
+			Toggle = false
+			UseToggle = true
+			game:GetService("TweenService"):Create(StatusView.ImageLabel,TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{ImageColor3 = TargetColor.BackgroundColor3}):Play()
+			game:GetService("TweenService"):Create(StatusView.ImageLabel,TweenInfo.new(0.1,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{Size = UDim2.new(0, 23,0, 23)}):Play()
+			game:GetService("TweenService"):Create(StatusView.ImageLabel,TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{ImageTransparency = 0}):Play()
+			game:GetService("TweenService"):Create(StrokeView,TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{Color = TargetColor.BackgroundColor3}):Play()
+			game:GetService("TweenService"):Create(StatusView.UIStroke,TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{Transparency = 1}):Play()
+		else
+			Toggle = true
+			UseToggle = false
+			game:GetService("TweenService"):Create(StatusView.ImageLabel,TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{ImageColor3 = Color3.fromRGB(50,50,50)}):Play()
+			game:GetService("TweenService"):Create(StatusView.ImageLabel,TweenInfo.new(0.1,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{Size = UDim2.new(0, 0,0, 0)}):Play()
+			game:GetService("TweenService"):Create(StatusView.ImageLabel,TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{ImageTransparency = 1}):Play()
+			game:GetService("TweenService"):Create(StrokeView,TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{Color = Color3.fromRGB(50,50,50)}):Play()
+			game:GetService("TweenService"):Create(StatusView.UIStroke,TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{Transparency = 0}):Play()
+		end
+	end)
+	game:GetService("RunService").Stepped:Connect(function()
+		if UseToggle == true then
+			game:GetService("TweenService"):Create(StatusView.ImageLabel,TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{ImageColor3 = TargetColor.BackgroundColor3}):Play()
+			game:GetService("TweenService"):Create(StrokeView,TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{Color = TargetColor.BackgroundColor3}):Play()
+			game:GetService("TweenService"):Create(TargetColor,TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{BackgroundColor3 = (Color3.fromHSV(tick() % 5 / 5, 1, 1))}):Play()
+		else
+			game:GetService("TweenService"):Create(TargetColor,TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{BackgroundColor3 = Color3.fromRGB(255, 118, 20)}):Play()
+		end
+	end)
+end
+coroutine.wrap(AISHPR_fake_script)()
+local function JYZV_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UIXS = game:GetService('UserInputService')
+	local dragToggle = nil
+	local dragSpeed = 0.05
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(script.Parent, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	script.Parent.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = script.Parent.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIXS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(JYZV_fake_script)()
+	game.StarterGui:SetCore("ChatMakeSystemMessage", {Text = "VELIHUB Are Loaded, Enjoy "..game:GetService("Players").LocalPlayer.Name.."."})
+	wait(math.random(1.05,3.05))
+	VeliHub.Enabled = true
+end
